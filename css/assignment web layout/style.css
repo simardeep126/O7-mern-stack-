@@ -3,23 +3,131 @@
     padding: 0;
     text-transform: capitalize;
 }
+body{
+
+    background-color: black;
+}
 .container{
 
-    height: 550px;
-    width: 900px;
+    height: 600px;
+    width: 1100px;
    border: 2px solid black;
    margin: auto;
-   padding: 40px;
+   padding: 10px;
    margin-top: 40px;
+   background-color: rgb(78, 73, 73);
+   color: white;
+   background-image: url(./backpic.jpg);
     
 }
 
 .nav{
     display: inline;
+margin:45px;
+
 
 }
 .logo{
     font-size: 35px;
     font-weight: bolder;
     color: orange;
+}
+.buttons{
+    align-self: self-end;
+
+
+}
+
+.nav>a{
+    text-decoration: none;
+    margin: 13px;
+    color: white;
+}
+
+.main{
+    margin-top: 60px;
+    padding: 10px;
+    margin: 0px;
+}
+.orange{
+    color: orange;
+}
+.left{
+    padding: 20px;
+    font-size: x-large;
+    width: 71%;
+   display: inline-block;
+  
+  
+}
+
+.right{
+    width: 20%;
+   
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(52, 50, 50);
+    border-radius: 10px;
+
+}
+.right>h2{
+    background-color: cornsilk;
+
+    padding: 7px;
+    color: orange;
+    font-size: x-large;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+.login{
+    margin-top: 20px;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: orange;
+}
+.form{
+    color: white;
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.last{
+    text-align: center;
+    color: white;
+}
+i{
+    margin: 0px 8px;
+    font-size: 25px;
+    color: white;
+}
+.search{
+    height: 30px;
+    width: 20%;
+    border-radius: left;
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(52, 50, 50);
+    color: white;
+    font-weight: bolder;
+}
+.sbtn{
+    height: 30px;
+    width: 80px;
+    color: white;
+  background-color: red;
+  border-radius: 2px;
+}
+.joinbtn{
+    margin-top: 20px;
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 20px;
+
 }
