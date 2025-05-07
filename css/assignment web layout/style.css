@@ -4,10 +4,22 @@
     text-transform: capitalize;
 }
 .container{
-    height: 750px;
-    width: 1400px;
+
+    height: 550px;
+    width: 900px;
    border: 2px solid black;
    margin: auto;
+   padding: 40px;
+   margin-top: 40px;
     
 }
 
+.nav{
+    display: inline;
+
+}
+.logo{
+    font-size: 35px;
+    font-weight: bolder;
+    color: orange;
+}
