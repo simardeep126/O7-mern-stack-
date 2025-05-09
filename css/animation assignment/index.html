@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation assignment </title>
+    <style>
+        .container{
+            height: 850px;
+            width: 1500px;
+            background-image: url(./bg.jpg);
+            background-repeat: no-repeat;
+    
+            background-size: contain;
+            
+        }
+        .car{
+            height: 140px;
+            width: 350px;
+            position: absolute;
+            margin-top: 560px;
+            margin-left: 90%;
+            animation-name: movecar;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-delay: 1;
+            animation-timing-function: ease-in;
+            
+        }
+        .car2{
+             height: 140px;
+            width: 350px;
+            position: absolute;
+            margin-top: 450px;
+            margin-left: 0%;
+            animation-name: movecar2;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-delay: 1;
+            animation-timing-function: ease-in-out;
+            
+        }
+        @keyframes movecar {
+            from{
+                transform: translateX(-10px);
+
+            }to{
+                  transform: translateX(-1800px);
+
+            }
+            
+        }
+        @keyframes movecar2 {
+            from{
+                transform: translateX(0px);
+
+
+            }
+            to{
+                transform: translateX(1500px);
+
+
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      
+            <img  class="car" src="./car.png" alt="">
+            <img src="./car2.webp" alt="" class="car2">
+        
+           
+           
+        
+       
+       
+    </div>
+    
+</body>
+</html>

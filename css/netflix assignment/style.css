@@ -21,10 +21,10 @@ body{
 }
 .bar2{
     
-    transform: translate(600px,100px) rotate(-28deg);
-    /* transform: rotate(-40deg); */
+    transform: translate(600px,100px) skew(30deg,0deg);
+ 
     z-index: 1;
-    transform: skew(20deg,10deg);
+  
     
 }
 .bar3{
